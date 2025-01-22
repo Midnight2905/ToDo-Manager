@@ -21,10 +21,6 @@ class Task:
         task = taskListBox.get(taskComplete)
         taskListBox.delete(taskComplete)
         taskListBox.insert(tk.END, f"{task} (Complete) {datetime.date.today()}")
-
-    def taskShowing(task):
-        print
-
 #Load tk
 root = tk.Tk()
 #Set window size and the name
